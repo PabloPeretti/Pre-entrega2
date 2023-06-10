@@ -1,0 +1,39 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $main-font;
+}
+
+.contenedor {
+  padding: 60px 0;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.titulo {
+  color: $color_titulos;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+h2 {
+  color: $color_titulos;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+h3 {
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: auto;
+}

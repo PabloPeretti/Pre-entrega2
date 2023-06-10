@@ -1,0 +1,13 @@
+$color_celeste: #b2e2f2; 
+$color_coral: #f2c2b2; 
+$color_titulos: #e5e8e8; 
+$main-font: Verdana, Geneva, Tahoma, sans-serif; 
+
+//Mixins 
+
+@mixin caja_personalizada {
+    background-color: $color_celeste; 
+    padding: 40px;
+    border-radius: 30px;
+  }
+

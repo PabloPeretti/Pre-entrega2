@@ -1,0 +1,60 @@
+.ContenedorPort {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  background-color: $color_coral;
+}
+
+.Item-port {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+  }
+}
+
+/*cliente*/
+.cards {
+  border: 3px none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 10px;
+  padding: 10px;
+  justify-items: center;
+  background-color: none;
+  text-align: center;
+
+  card {
+    width: 100%;
+    height: 300px;
+    background-color: $color_celeste;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $color_titulos;
+    border-radius: 50px;
+    position: relative;
+
+    img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    contenido-texto-card {
+      padding: 30px;
+      width: 70%;
+      color: black;
+      text-align: auto;
+      margin: auto;
+    }
+  }
+}

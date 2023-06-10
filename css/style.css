@@ -1,5 +1,3 @@
-@charset "UTF-8";
-
 * {
   margin: 0;
   padding: 0;
@@ -52,7 +50,6 @@ h3 {
   padding: 20px;
   box-sizing: border-box;
 }
-
 .Item-port img {
   width: 100%;
   height: 100%;
@@ -72,7 +69,6 @@ h3 {
   background-color: none;
   text-align: center;
 }
-
 .cards card {
   width: 100%;
   height: 300px;
@@ -84,14 +80,12 @@ h3 {
   border-radius: 50px;
   position: relative;
 }
-
 .cards card img {
   width: 200px;
   height: 200px;
   object-fit: cover;
   border-radius: 50%;
 }
-
 .cards card contenido-texto-card {
   padding: 30px;
   width: 70%;
@@ -107,13 +101,6 @@ h3 {
   border-radius: 30px;
 }
 
-@media (max-width: 768px) {
-  header {
-    text-align: center;
-  }
-}
-
-/*pages contacto */
 .caja_contacto {
   display: flex;
   justify-content: center;
@@ -125,29 +112,25 @@ h3 {
   gap: 30px;
   padding: 20px;
 }
-
-form {
+.caja_contacto form {
   background-color: #f2c2b2;
   padding: 20px;
   border-radius: 20px;
   text-align: center;
 }
-
-label {
+.caja_contacto label {
   display: block;
   margin-bottom: 10px;
 }
-
-input[type=text],
-input[type=email] {
+.caja_contacto input[type=text],
+.caja_contacto input[type=email] {
   width: 100%;
   padding: 12px;
   border: none;
   border-radius: 4px;
   margin-bottom: 20px;
 }
-
-button[type=submit] {
+.caja_contacto button[type=submit] {
   color: white;
 }
 
@@ -158,36 +141,25 @@ button[type=submit] {
   grid-gap: 10px;
   background-color: #f2c2b2;
 }
-
-.grid-item {
+.grid-container grid-item {
   width: 100%;
   height: 100%;
   padding: 20px;
   box-sizing: border-box;
 }
-
-.grid-item img {
+.grid-container grid-item img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: 0, 3s;
   border-radius: 50px;
 }
-
-.grid-item img:hover {
+.grid-container grid-item img:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   /* Aplica el sombreado al pasar el mouse */
   transform: scale(1.2);
 }
 
-@media (max-width: 768px) {
-  .grid-container {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    /* Ajusta el tamaño de las columnas en pantallas más pequeñas */
-  }
-}
-
-/*pages servicios*/
 .pseudos {
   display: flex;
   justify-content: center;
@@ -199,8 +171,7 @@ button[type=submit] {
   gap: 30px;
   padding: 20px;
 }
-
-.pseudo {
+.pseudos pseudo {
   width: 90%;
   height: 600px;
   background-color: #b2e2f2;
@@ -209,29 +180,25 @@ button[type=submit] {
   align-items: center;
   border-radius: 100px;
 }
-
-.pseudo img {
+.pseudos pseudo img {
   width: 40%;
   height: 100%;
   object-fit: cover;
   border-radius: 100px;
 }
-
-.pseudo_container {
+.pseudos pseudo pseudo_container {
   padding: 50px;
 }
-
-.pseudo:hover {
+.pseudos pseudo:hover {
   box-shadow: 5px 5px 15px 0px #4a4a4a;
 }
 
-.pseudo:nth-child(2n) {
+.pseudo.pseudo:hover .pseudo:nth-child(2n) {
   background-color: #f2c2b2;
   color: #191919;
   flex-direction: row-reverse;
 }
-
-.pseudo:nth-child(2n):hover {
+.pseudo.pseudo:hover .pseudo:nth-child(2n):hover {
   box-shadow: 5px 5px 15px 0px #4a4a4a;
 }
 
@@ -240,7 +207,6 @@ button[type=submit] {
     text-align: center;
   }
 }
-
 header {
   width: 100%;
   height: 600px;
@@ -260,7 +226,7 @@ nav {
   padding: 30px 50px 0 0;
 }
 
-nav>ul li {
+nav > ul li {
   color: white;
   font-weight: 300;
   text-decoration: none;
@@ -268,11 +234,11 @@ nav>ul li {
   display: inline;
 }
 
-nav>ul li a {
+nav > ul li a {
   color: white;
 }
 
-header>section.textos-header {
+header > section.textos-header {
   display: flex;
   height: 430px;
   width: 100%;

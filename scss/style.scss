@@ -1,0 +1,17 @@
+//IMPORT BASE//
+@import "base/variables";
+@import "base/resets";
+
+
+//IMPORT LAYOUT//   
+@import "layout/index";
+@import "layout/acercade";
+@import "layout/contacto";
+@import "layout/portafolio";
+@import "layout/servicios";
+@import "layout/mediaqueries"; 
+
+
+//IMPORT COMPONENT//
+@import "components/navbar";
+@import "components/footer"; 

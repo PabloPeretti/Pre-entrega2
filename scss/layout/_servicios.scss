@@ -1,0 +1,46 @@
+.pseudos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    max-height: 100%;
+    background-color: #eeee;
+    gap: 30px;
+    padding: 20px;
+
+    pseudo {
+        width: 90%;
+        height: 600px;
+        background-color: $color_celeste;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100px;
+
+        img {
+            width: 40%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 100px;
+        }
+
+        pseudo_container {
+            padding: 50px;
+        }
+
+        &:hover {
+            box-shadow: 5px 5px 15px 0px #4a4a4a;
+        }
+    }
+}
+
+.pseudo.pseudo:hover .pseudo:nth-child(2n) {
+    background-color: $color_coral;
+    color: #191919;
+    flex-direction: row-reverse;
+
+    &:hover {
+        box-shadow: 5px 5px 15px 0px #4a4a4a;
+    }
+}
