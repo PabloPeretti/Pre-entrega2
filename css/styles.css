@@ -73,10 +73,10 @@ h3 {
   text-align: center;
 }
 
-.cards card {
+.cards .card {
   width: 100%;
   height: 300px;
-  background-color: #b2e2f2;
+  background-color: #f2c2b2;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,14 +85,14 @@ h3 {
   position: relative;
 }
 
-.cards card img {
+.cards .card img {
   width: 200px;
   height: 200px;
   object-fit: cover;
   border-radius: 50%;
 }
 
-.cards card contenido-texto-card {
+.cards .card .contenido-texto-card {
   padding: 30px;
   width: 70%;
   color: black;
