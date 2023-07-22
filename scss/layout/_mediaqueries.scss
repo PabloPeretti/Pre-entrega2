@@ -3,3 +3,12 @@
         text-align: center;
     }
 }
+
+
+@media screen and
+(max-width: 991px)
+  {
+  .card {
+    flex-direction: columns;
+  }
+}
